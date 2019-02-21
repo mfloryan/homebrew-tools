@@ -16,7 +16,7 @@ class V8 < Formula
 
   # not building on Snow Leopard:
   # https://github.com/Homebrew/homebrew/issues/21426
-  depends_on :macos => :lion
+  depends_on :macos => :yosemite
 
   depends_on "python" => :build
   depends_on :xcode => :build
